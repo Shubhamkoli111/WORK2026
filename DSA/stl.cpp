@@ -24,4 +24,7 @@ int main()
     //  for (int val : vec)
     //      cout << val << " ";
     //  cout << endl;
+
+    cout << "val at index 2 is " << vec[2] << " or " << vec.at(2) << endl;
+
 }
