@@ -1,0 +1,16 @@
+DSA and Problem solving mastery!!!!!!!
+
+C++ STL
+Data structure - Williamfiset
+Algo - Abdulbari
+DSA patterns - AlgoMasterIO
+
+Problems - https://algomaster.io/practice/dsa-patterns
+easy - 10-15 mins
+med  - 30    mins
+hard - 60    mins
+
+Leetcode contest(past & future)virtual
+
+DSA- Company wise problems by shraddha  didi
+https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?usp=sharing
