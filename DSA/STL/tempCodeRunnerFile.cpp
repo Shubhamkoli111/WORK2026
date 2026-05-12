@@ -1,3 +1,3 @@
-for (int val : vec)
-        cout << val << " ";
-    cout << endl;
+for (auto p : vec)
+        cout << p.first << " " << p.second << endl;
+    return 0;

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <h1>Fitness form</h1>
+    <form action="/process.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" />
+      <br /><br />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your phone" />
+      <br /><br />
+
+      <label for="pass">Password:</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        placeholder="enter password"
+      />
+
+      <br /><br />
+      <label for="gender">Gender</label>
+      <br />
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+
+      <label for="gender">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+
+      <label for="gender">Other</label>
+      <input type="radio" name="gender" id="other" value="other" />
+
+      <br /><br />
+
+      <p>Choose your hobby</p>
+      <!-- <label for="playing">Playing</label>
+      <input type="checkbox" name="playing" id="playing" value="playing" />
+      <label for="singing">Singing</label>
+      <input type="checkbox" name="singing" id="singing" value="singing" />
+      <label for="running">Running</label>
+      <input type="checkbox" name="running" id="running" value="running" />
+      <label for="studying">Studying</label>
+      <input type="checkbox" name="studying" id="studying" value="studying" /> -->
+
+      <br /><br />
+
+      <!-- checkbox before option  -->
+
+      <!-- for and id, if same then clicking on name mentioned will also check the checkbox of not 
+      same then only have to click on checkbox -->
+
+      <input type="checkbox" name="playing" id="playing" value="playing" />
+      <label for="playing">Playing</label>
+      <input type="checkbox" name="singing" id="singing" value="singing" />
+      <label for="singing">Singing</label>
+      <input type="checkbox" name="running" id="running" value="running" />
+      <label for="running">Running</label>
+      <input type="checkbox" name="studying" id="studying" value="studying" />
+      <label for="studying">Studying</label>
+      <br /><br />
+
+      <!-- dropdown===== -->
+      <label for="city">Choose a city: </label>
+      <select name="city" id="city">
+        <option value="delhi">Delhi</option>
+        <option value="bombay">Bombay</option>
+        <option value="ichi">Ichi</option>
+      </select>
+
+      <br /><br />
+
+      <textarea
+        name="description"
+        id="description"
+        rows="9"
+        cols="44"
+      ></textarea>
+      <br />
+      <br />
+      <!-- after submit, the value mentione in "value" field will go to server internally -->
+      <input type="submit" id="submit" />
+    </form>
+  </head>
+  <body></body>
+</html>

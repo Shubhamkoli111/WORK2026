@@ -1,10 +1,10 @@
 #include <iostream>
-#include <map>
+#include <unordered_map>
 using namespace std;
 int main()
 {
 
-    map<string, int> m; // by default ordered
+    unordered_map<string, int> m; // tc is O(1) for insert,delete and O(logn) for map(ordered)
 
     m["Tv"] = 100;
     m["Laptop"] = 200;
@@ -17,13 +17,13 @@ int main()
 
     // m.erase("Tv");
 
-    if (m.find("Mobile") != m.end())
-        cout << "Found\n";
-    else
-        cout << "Not Found\n";
+    // if (m.find("Mobile") != m.end())
+    //     cout << "Found\n";
+    // else
+    //     cout << "Not Found\n";
 
-    // for (auto it : m)
-    //     cout << it.first << " " << it.second << endl;
+    for (auto it : m)
+        cout << it.first << " " << it.second << endl;
 
     // cout << "count= " << m.count("Laptop") << endl;
     // cout << "value= " << m["Laptop"] << endl;
