@@ -12,6 +12,7 @@
 
       /* class */
 
+      /* class selector */
       .green {
         color: green;
       }
@@ -21,11 +22,35 @@
       }
 
       .small {
-        font-size: 12 px;
+        font-size: 12px;
       }
 
       .big {
-        font-size: 1 px;
+        font-size: 53px;
+      }
+
+      #p2 {
+        /* background-color: yellow; */
+      }
+
+      /* universal selector  */
+      /* 
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+      } */
+
+      /* group selctors */
+      h1,
+      h2,
+      .red {
+        background-color: yellow;
+      }
+
+      /* descendent selector */
+      div p {
+        font-style: italic;
       }
     </style>
   </head>
@@ -49,11 +74,27 @@
       Ad reprehenderit odio error molestiae placeat.
     </p>
 
+    <p id="p2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatum
+      quod maxime possimus ad ducimus at dignissimos perspiciatis mollitia nisi.
+    </p>
+
     <h2 class="red small">Element selector</h2>
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellat
       modi enim.
     </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa rem
+        ad doloremque possimus, aliquid odit dolorum quaerat. Aperiam impedit
+        autem ratione ex perferendis ab ipsam praesentium quisquam corporis
+        molestiae, ullam atque nisi repellendus debitis recusandae numquam
+        nesciunt consectetur? Ab eligendi nobis architecto. Magni, odio ut
+        impedit praesentium reprehenderit commodi?
+      </p>
+    </div>
   </body>
 </html>
