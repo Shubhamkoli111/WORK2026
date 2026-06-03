@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box_Model</title>
+
+    <style>
+      /* this doesnt works because inline element cant have height */
+      /* #span1 {
+        height: 23px;
+        width: 23px;
+      } */
+
+      #div1 {
+        height: 231px;
+        width: 231px;
+        padding: 20px;
+        background-color: yellow;
+        border: 2px solid black;
+        /* margin: 20px; */
+        /* margin-top: 23px;
+        margin-bottom: 45px; */
+        margin: 0px 45px; /* set top bottom margin as 0 and left right margin as 45 */
+        /* box-sizing: content-box; */ /*default setting no need to write*/
+        /* to include paddig and border use border-box */
+      }
+
+      .card {
+        width: 400px;
+        padding: 20px;
+        border: 10px solid black;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Box Model</h1>
+
+      <div class="card">card 1</div>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+        corporis, eius earum itaque tenetur perferendis, corrupti aperiam
+        reiciendis, ipsum nam consectetur possimus odit iusto quidem ad
+        accusantium aliquid. Ut sit maiores doloribus nostrum quasi consequatur
+        autem ipsa ratione. Eveniet voluptas eaque, velit modi vero nobis
+        voluptatem. Praesentium iusto recusandae commodi.
+      </p>
+      <span id="span1">span 1</span>
+      <span id="span2">span 2</span>
+
+      <div id="div1">Div1</div>
+    </div>
+  </body>
+</html>
