@@ -1,11 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        background-color: red;
+        /* display: inline;  */
+        /* blocked element behaves like a inline */
+      }
+      span {
+        background-color: yellow;
+        border: 2px solid green;
+        /* display: block; */
+        /* inline element behaves like a blocked */
+        /* display: none; */
+        display: inline-block;
+        width: 35vw;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>I am a div</div>
+    <span>I am a span 1</span>
+    <span>I am a span 2</span>
+  </body>
 </html>
