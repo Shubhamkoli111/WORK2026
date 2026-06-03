@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      .container {
+        margin: 50px;
+        width: 514px;
+        height: 144px;
+        border: 2px solid red;
+        position: absolute;
+      }
+
+      .one {
+        z-index: 20; /*learn*/
+      }
+
+      .box1 {
+        z-index: 10;
+        width: 194px;
+        height: 84px;
+        border: 2px solid green;
+        background-color: aqua;
+        /* position: relative; */
+        position: absolute;
+        /* changes position wrt nearest position element which is container, if not then it will be html */
+        top: 30px;
+        left: 160px;
+      }
+
+      .ad {
+        border: 2px solid green;
+        background-color: beige;
+        padding: 34px;
+        position: fixed;
+
+        /* position: sticky; MUST LEARN */
+
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">i am a box 1</div>
+
+      <div class="one">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab maiores
+        eaque numquam officiis et quo magnam ea, inventore velit voluptatibus ad
+        rerum maxime. Iure facilis quaerat, fugit praesentium at numquam.
+      </div>
+
+      <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+        similique eaque iure officiis provident impedit, quo deserunt dolorum ea
+        veniam eveniet id amet consectetur necessitatibus velit dolores at,
+        error voluptatibus debitis mollitia tempora, maiores corrupti nulla qui!
+        Laborum quibusdam voluptatibus commodi rerum, at tempore. Distinctio
+        similique asperiores possimus explicabo sunt soluta eveniet ducimus
+        voluptates impedit modi unde laboriosam aut officiis architecto
+        excepturi ullam, perspiciatis, delectus est. Cum nostrum placeat dolores
+        et. Hic minima repellendus voluptatem quisquam quos totam reprehenderit
+        vitae quas saepe id recusandae ad provident placeat asperiores
+        aspernatur, nemo culpa assumenda fugit ducimus. Quam at nostrum aperiam
+        sint quibusdam similique, optio laboriosam molestias nobis ipsa adipisci
+        sit natus hic voluptas praesentium sunt, dolorem, dolores consequuntur.
+        Reprehenderit explicabo veritatis earum sunt, hic facere eveniet quos
+        voluptatum exercitationem, ducimus suscipit esse in ipsum doloremque
+        atque! Nisi libero natus, maxime animi inventore eos quis cupiditate
+        assumenda enim praesentium eum, est odit dignissimos nesciunt commodi
+        aperiam consectetur sequi repudiandae ea harum sit, excepturi esse
+        magni? Ipsa quaerat similique inventore, quia perferendis iste ducimus
+        quidem dignissimos molestiae quod sed accusantium tenetur mollitia magni
+        nisi amet recusandae aliquam accusamus omnis hic! Nemo, ipsam tempora?
+        Repellat ad at atque labore accusantium adipisci delectus facere neque,
+        minus praesentium in eum iure unde quos doloribus saepe dolore tempore
+        fugit rem magni eligendi ipsum ab? Iure eos ea dolore iste, neque
+        provident aliquid numquam nobis! Id natus molestiae iure quo obcaecati!
+        Amet deserunt aliquam dolores ratione laboriosam nihil, magnam
+        consequatur, illo culpa dignissimos omnis similique libero sequi
+        repellendus, iusto quod? Illum vitae, facilis a deserunt vero et iusto
+        accusamus officia, rerum porro culpa, in obcaecati corrupti unde sequi
+        architecto qui animi deleniti officiis. Quam ducimus veritatis atque,
+        consectetur totam odio quos accusantium consequuntur aliquid esse eos
+        adipisci, facere quis, non mollitia minus! At consequuntur rerum,
+        deleniti magnam debitis recusandae mollitia commodi doloremque vero
+        ducimus possimus impedit quo perspiciatis incidunt nostrum amet, totam
+        unde doloribus quas est? Alias eum cumque maxime ut ipsum quasi earum
+        pariatur sint tempora labore distinctio commodi dolores deserunt laborum
+        sed perspiciatis officiis, esse ipsam qui quod aliquam. Corrupti
+        eligendi quod vel repellendus vitae aliquam eum voluptatum cumque
+        suscipit quisquam, distinctio numquam nisi veritatis. Laboriosam unde
+        inventore neque reiciendis corrupti tempore natus cum dolorem maiores
+        cumque nemo officiis quisquam tenetur atque porro vero necessitatibus
+        ipsum, enim eaque accusantium rerum? Non nesciunt exercitationem aut
+        aperiam aliquam sapiente expedita laudantium tenetur doloribus sunt
+        voluptatem natus veritatis ad, assumenda iste optio minima totam omnis
+        neque ratione ipsam molestias velit ullam illo? Sunt eos tempore sint ad
+        voluptate neque ipsa ea? Iure illo ipsa distinctio id commodi
+        exercitationem ipsam odio! Animi ex quae veniam eaque vitae vero odio
+        repellendus optio. Doloremque autem consequatur, nesciunt earum voluptas
+        ea harum fuga doloribus in minima a voluptatibus error cumque.
+      </div>
+
+      <div class="ad">Purchase this drink at $4.55</div>
+    </div>
+  </body>
+</html>
